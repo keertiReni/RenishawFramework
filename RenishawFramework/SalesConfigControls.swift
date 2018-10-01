@@ -14,7 +14,7 @@
 import UIKit
 
 public class SalesConfigControls : NSObject {
-    
+  /*
     //// Cache
     
     private struct Cache {
@@ -1783,4 +1783,5 @@ private extension UIColor {
                        blue: b1 * (1 - fraction) + b2 * fraction,
                        alpha: a1 * (1 - fraction) + a2 * fraction);
     }
+ */
 }

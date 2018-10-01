@@ -11,7 +11,7 @@ import UIKit
 public class DrawFooterView: UIView {
     
     public override func draw(_ rect: CGRect) {
-        SalesConfigControls.drawOnyxMobileFooter(frame: rect, cornerRadius: 0)
+//        SalesConfigControls.drawOnyxMobileFooter(frame: rect, cornerRadius: 0)
     }
     
 }
