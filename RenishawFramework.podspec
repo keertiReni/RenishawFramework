@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "license" }
   s.author             = { "Keerti" => "keerti.bhatnagar@renishaw.com" }
   s.ios.deployment_target = '10.0'
-  s.ios.vendored_frameworks = 'RenishawFramework.framework'
+  s.ios.vendored_frameworks = 'RenishawFramework.zip'
   s.source            = { :git => 'https://github.com/keertiReni/RenishawFramework.git' }
   s.exclude_files = "Classes/Exclude"
 
