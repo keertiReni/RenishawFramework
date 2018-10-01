@@ -1,0 +1,11 @@
+framework module RenishawFramework {
+  umbrella header "RenishawFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RenishawFramework.Swift {
+    header "RenishawFramework-Swift.h"
+    requires objc
+}
