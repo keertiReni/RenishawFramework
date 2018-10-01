@@ -13,7 +13,9 @@ Pod::Spec.new do |s|
   s.author             = { "Keerti" => "keerti.bhatnagar@renishaw.com" }
   s.platform     = :ios, '10.0'
   s.source            = { :git => 'https://github.com/keertiReni/RenishawFramework.git' }
-#  s.source_files = "RenishawFramework", "RenishawFramework/**/*.{h,m,swift}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files = "RenishawFramework", "RenishawFramework/**/*.{h,m,swift}"
+ # s.vendored_frameworks = "RenishawFramework.framework"
+  s.exclude_files = "Pods/**/*.{h,m,swift}"
+  #{}"Classes/Exclude"
 
 end
